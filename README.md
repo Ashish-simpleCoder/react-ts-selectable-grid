@@ -1,1 +1,1 @@
-A Rspack + React template with TailwindCss & Prettier.
+Selectable grid in React
