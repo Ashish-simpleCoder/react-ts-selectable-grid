@@ -1,12 +1,12 @@
-import Footer from '@layout/footer'
-import Header from '@layout/header'
+import SelectableGrid from './components/selectable-grid'
 
 export default function App() {
    return (
       <div>
-         <Header />
-         <h1 className='text-5xl text-red-600 '>A Rspack + React template with TailwindCss & Prettier.</h1>
-         <Footer />
+         <h1 className='text-center py-6 text-2xl'>Selectable Grid</h1>
+         <div className='flex items-center justify-center'>
+            <SelectableGrid />
+         </div>
       </div>
    )
 }
